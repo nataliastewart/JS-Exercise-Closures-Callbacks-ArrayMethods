@@ -48,7 +48,7 @@ function processFirstItem(stringList, callback) {
  * should return "There are 0".
  */
 function processLength(list, callback) {
-  return callback(list.legth);
+  return callback(list.length);
 }
 
 /**
@@ -66,7 +66,7 @@ function processLength(list, callback) {
  * should return 'barbar'.
  */
 function processLastItem(stringList, callback) {
-  return callback(stringList.length - 1);
+  return callback(stringList[stringList.length - 1]);
 }
 
 /**
